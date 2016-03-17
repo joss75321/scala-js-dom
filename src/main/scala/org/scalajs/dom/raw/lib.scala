@@ -2276,6 +2276,13 @@ class Window extends EventTarget with WindowLocalStorage
    * MDN
    */
   def devicePixelRatio: Double = js.native
+
+  /**
+   * This read-only property indicates whether the referenced window is closed or not.
+   * 
+   * MDN
+   */
+  def closed: Boolean = js.native
 }
 
 
